@@ -18,7 +18,7 @@ class Person
 
 end
 
-person1 = Person.new("Ghafur", 250)
+person1 = Person.new("Ghafur", 25)
 puts "My age is #{person1.age}"
 person1.age = 250
 puts person1.age 
