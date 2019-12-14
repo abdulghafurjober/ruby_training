@@ -12,15 +12,15 @@ class Person
         puts age
     end
 
-    def  age= (new_age)
+    def  age= (new_age) #setter
         @age = new_age unless new_age > 120
     end
 
 end
 
-person1 = Person.new("Ghafur", 25)
+person1 = Person.new("Ghafur", 250)
 puts "My age is #{person1.age}"
 person1.age = 250
 puts person1.age 
 person1.age = 28 # ? kan dlm constructor cuma ada attr_reader, kenapa boleh ada method yg boleh tukar value tu?
-puts person1.age 
+puts person1.age
